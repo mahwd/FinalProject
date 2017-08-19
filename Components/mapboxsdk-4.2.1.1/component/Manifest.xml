@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<component format="1" id="mapboxsdk" is-shell="true">
+  <name>Mapbox SDK</name>
+  <publisher>Xamarin Inc.</publisher>
+  <publisher-url>http://xamarin.com</publisher-url>
+  <version>4.2.1.1</version>
+  <summary>Build the map your application deserves.</summary>
+  <packages>
+    <package id="Xamarin.MapboxSDK.Android" version="4.2.1" framework="android" />
+    <package id="Xamarin.MapboxSDK.AndroidServices" version="1.3.1" framework="android" />
+    <package id="Xamarin.MapboxSDK.JavaServices" version="1.3.1" framework="android" />
+    <package id="Square.OkHttp3" version="3.4.1.1" framework="android" />
+    <package id="Square.OkIO" version="1.6.0" framework="android" />
+    <package id="Square.Retrofit2" version="2.1.0.0" framework="android" />
+    <package id="GoogleGson" version="2.6.1.0" framework="android" />
+    <package id="Xamarin.Android.Support.Animated.Vector.Drawable" version="23.4.0.1" framework="android" />
+    <package id="Xamarin.Android.Support.Design" version="23.4.0.1" framework="android" />
+    <package id="Xamarin.Android.Support.v7.AppCompat" version="23.4.0.1" framework="android" />
+    <package id="Xamarin.Android.Support.v4" version="23.4.0.1" framework="android" />
+    <package id="Xamarin.Android.Support.v7.RecyclerView" version="23.4.0.1" framework="android" />
+    <package id="Xamarin.Android.Support.Vector.Drawable" version="23.4.0.1" framework="android" />
+    <package id="Xamarin.MapboxSDK.iOS" version="3.5.0" framework="ios" />
+  </packages>
+  <samples>
+    <sample id="MapboxSampleAndroid">
+      <name>Android Sample</name>
+      <summary>Android Sample</summary>
+    </sample>
+    <sample id="MapboxSampleiOS">
+      <name>iOS Sample</name>
+      <summary>iOS Sample</summary>
+    </sample>
+  </samples>
+</component>
